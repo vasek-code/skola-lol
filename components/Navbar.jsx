@@ -127,10 +127,12 @@ export default function Navbar() {
             </Flex>
             <Flex gap="20px" h="100%" pr="20px">
               <Image
-                src="/icon.svg"
+                src="/logo.png"
                 width="100%"
-                maxWidth="40px"
-                height="auto"
+                height="250px"
+                top="-85px"
+                left="80px"
+                position="relative"
                 cursor="pointer"
                 onClick={() => {
                   Router.push("/");
