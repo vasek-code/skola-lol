@@ -149,7 +149,7 @@ export default function Match({ match, index, summonerName, runesData }) {
             flexDir="column"
           >
             <div
-              class="KDA-totals"
+              className="KDA-totals"
               style={{
                 marginBottom: "1px",
                 fontSize: "16px",
@@ -158,11 +158,11 @@ export default function Match({ match, index, summonerName, runesData }) {
               }}
             >
               {match.info.participants[participantIndex].kills}{" "}
-              <span class="slash">/</span>{" "}
-              <span class="red" style={{ color: "#ff4e50" }}>
+              <span className="slash">/</span>{" "}
+              <span className="red" style={{ color: "#ff4e50" }}>
                 {match.info.participants[participantIndex].deaths}
               </span>{" "}
-              <span class="slash">/</span>{" "}
+              <span className="slash">/</span>{" "}
               {match.info.participants[participantIndex].assists}
             </div>
             <Text fontWeight="semibold" fontSize="13px">
