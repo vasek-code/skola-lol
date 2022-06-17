@@ -9,6 +9,8 @@ import { Flex } from "@chakra-ui/react";
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     AOS.init();
+
+    window.localStorage.setItem("chakra-ui-color-mode", "dark");
   });
 
   return (
